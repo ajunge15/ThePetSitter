@@ -56,7 +56,7 @@ export default function App() {
   return (
     <div>
       <NavBar />
-      <HashRouter basename="/ThePetSitter>
+      <HashRouter basename="/ThePetSitter">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
