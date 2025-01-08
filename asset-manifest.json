@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ThePetSitter/static/css/main.9b0ce0ec.css",
-    "main.js": "/ThePetSitter/static/js/main.42d9d7f2.js",
+    "main.js": "/ThePetSitter/static/js/main.57f23931.js",
     "static/media/Remmi-Bow.jpg": "/ThePetSitter/static/media/Remmi-Bow.a8fea72334da73708496.jpg",
     "static/media/zoe.jpg": "/ThePetSitter/static/media/zoe.32da04a65baaae0bbd70.jpg",
     "static/media/Shitzus.jpg": "/ThePetSitter/static/media/Shitzus.db953854721e8c4da128.jpg",
@@ -11,10 +11,10 @@
     "static/media/cats_small.jpg": "/ThePetSitter/static/media/cats_small.45fed9ce67f5ea170751.jpg",
     "index.html": "/ThePetSitter/index.html",
     "main.9b0ce0ec.css.map": "/ThePetSitter/static/css/main.9b0ce0ec.css.map",
-    "main.42d9d7f2.js.map": "/ThePetSitter/static/js/main.42d9d7f2.js.map"
+    "main.57f23931.js.map": "/ThePetSitter/static/js/main.57f23931.js.map"
   },
   "entrypoints": [
     "static/css/main.9b0ce0ec.css",
-    "static/js/main.42d9d7f2.js"
+    "static/js/main.57f23931.js"
   ]
 }
