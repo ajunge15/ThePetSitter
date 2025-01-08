@@ -8,11 +8,15 @@ export default function Carousel({ data }) {
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
-    setSlide(slide === data.length - 1 ? 0 : slide + 1);
+    if (slide < 4) {
+      setSlide(slide === data.length - 1 ? 0 : slide + 1);
+    }
   };
 
   const prevSlide = () => {
-    setSlide(slide === 0 ? data.length - 1 : slide - 1);
+    if (slide > 0) {
+      setSlide(slide === 0 ? data.length - 1 : slide - 1);
+    }
   };
   return (
     <div className="carousel">

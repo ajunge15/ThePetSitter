@@ -13,7 +13,7 @@ import slides from "./data/carouselData.json";
 const prices = [
   {
     title: "What is the base overnight fee?",
-    text: "$40 base fee",
+    text: "$50 base fee",
   },
   {
     title: "How much does each dog/cat cost on top of the base fee per night?",
