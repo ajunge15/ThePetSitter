@@ -1,7 +1,7 @@
 import "./styles.css";
 import NavBar from "./components/NavBar";
 import Home from "./components/pages/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
 import { createTheme } from "@mui/material/styles";
 import AboutMe from "./components/pages/AboutMe";
 import Contact from "./components/pages/Contact";
@@ -55,9 +55,9 @@ const darkTheme = createTheme({
 export default function App() {
   return (
     <div>
-      <Router>
+      <HashRouter>
         <NavBar />
-        <Routes>
+        <HashRouter>
           <Route path="/" element={<Home />} />
           <Route
             path="/components/pages/AboutMe"
@@ -65,8 +65,8 @@ export default function App() {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services prices={prices} />} />
-        </Routes>
-      </Router>
+        </HashRouter>
+      </HashRouter>
       <createTheme darkTheme={darkTheme} />
       {/* <Carousel data={slides} /> */}
     </div>
