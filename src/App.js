@@ -55,9 +55,9 @@ const darkTheme = createTheme({
 export default function App() {
   return (
     <div>
+      <NavBar />
       <HashRouter>
-        <NavBar />
-        <HashRouter>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route
             path="/components/pages/AboutMe"
@@ -65,7 +65,7 @@ export default function App() {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services prices={prices} />} />
-        </HashRouter>
+        </Routes>
       </HashRouter>
       <createTheme darkTheme={darkTheme} />
       {/* <Carousel data={slides} /> */}
