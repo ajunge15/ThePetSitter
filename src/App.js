@@ -55,14 +55,11 @@ const darkTheme = createTheme({
 export default function App() {
   return (
     <div>
+      <HashRouter>
       <NavBar />
-      <HashRouter basename="/ThePetSitter">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/components/pages/AboutMe"
-            element={<AboutMe slides={slides} />}
-          />
+          <Route path="/about" element={<AboutMe slides={slides} />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services prices={prices} />} />
         </Routes>

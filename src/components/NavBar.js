@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./NavBar.css";
 import myLogo from "../assets/petSitterNew_processed.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -21,27 +22,16 @@ export default function Navbar() {
             {showMenu || (
               <ul class>
                 <li className="nav-item nav-li">
-                  <a className="nav-link nav-a" href="/">
-                    Home
-                  </a>
+                   <Link className="nav-link" to="/">Home</Link>
                 </li>
                 <li className="nav-item nav-li">
-                  <a
-                    className="nav-link nav-a"
-                    href="/components/pages/AboutMe"
-                  >
-                    About
-                  </a>
+                  <Link className="nav-link" to="/about">About</Link>
                 </li>
                 <li className="nav-item nav-li">
-                  <a className="nav-link nav-a" href="/services">
-                    Q&A
-                  </a>
+                 <Link className="nav-link" to="/services">Q&A</Link>
                 </li>
                 <li className="nav-item nav-li">
-                  <a className="nav-link nav-a" href="/Contact">
-                    Contact
-                  </a>
+                 <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
               </ul>
             )}
