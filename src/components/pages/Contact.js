@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 
-import "./../Contact.css"; // Import CSS file
+import "./../Contact.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  // const [dates, setDates] = useState("");
   const [phone, setPhone] = useState("");
 
   const [startDate, setStartDate] = useState(new Date());

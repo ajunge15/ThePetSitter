@@ -1,23 +1,23 @@
 {
   "slides": [
     {
-      "src": "/images/Hiking.PNG",
+      "src": "/ThePetSitter/images/hiking.PNG",
       "alt": "image of me hiking"
     },
     {
-      "src": "/images/yoga.PNG",
+      "src": "/ThePetSitter/images/yoga.PNG",
       "alt": "me doing yoga in AZ"
     },
     {
-      "src": "/images/biking.PNG",
+      "src": "/ThePetSitter/images/biking.PNG",
       "alt": "biking in CO"
     },
     {
-      "src": "/images/lunch.PNG",
+      "src": "/ThePetSitter/images/lunch.PNG",
       "alt": "lunch in AZ"
     },
     {
-      "src": "/images/skiing.PNG",
+      "src": "/ThePetSitter/images/skiing.PNG",
       "alt": "skiing in CO"
     }
   ]
